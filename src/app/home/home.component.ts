@@ -35,6 +35,7 @@ export class HomeComponent implements OnInit {
     // Creating and configuring Cesium Viewer
     this.viewer = new Viewer('cesiumContainer', {
       targetFrameRate: 60, // Target FPS
+      scene3DOnly: true, // 3D mode only
     });
 
     // Call rectangle drawing setup function
