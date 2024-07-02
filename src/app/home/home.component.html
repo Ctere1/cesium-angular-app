@@ -1,9 +1,11 @@
 <!-- home.component.html -->
 
-<div class="container mx-auto">
-    <div id="cesiumContainer" class="h-auto w-full mt-8"></div>
-    <div class="flex justify-between mt-4">
-        <p class="text-sm text-gray-600">Hold down <em>Shift</em> to select an area.</p>
-        <button (click)="onCalculateArea()" class="bg-blue-500 text-white py-2 px-4 rounded-md">Calculate Area</button>
+<div class="container mx-auto relative">
+  
+    <div id="cesiumContainer" class="h-auto w-full mx-auto"></div>
+
+    <div class="absolute top-0 left-0 p-4">
+        <p class="text-sm text-gray-200">Hold down <em>Shift</em> to select an area.</p>
+        <button (click)="onCalculateArea()" class="bg-blue-500 text-white py-2 px-4 rounded-md mt-2">Calculate Area</button>
     </div>
 </div>

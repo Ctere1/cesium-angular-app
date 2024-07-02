@@ -76,6 +76,7 @@ After these steps navigate to `http://localhost:4200/`. The application will aut
 
 ![Screenshot](images/ss2.png)  
 
+![Screenshot](images/ss3.png)  
 
 ## 📝Credits
 

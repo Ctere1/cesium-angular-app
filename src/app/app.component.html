@@ -1,12 +1,23 @@
 <!-- app.component.html -->
 
-<header>
-</header>
+<div class="flex flex-col min-h-screen">
+  <header>
+    <nav class="bg-gray-800 text-white p-4 flex items-center">
+      <div>
+        <img src="icons/world.svg" alt="World Icon" class="h-8 w-8 mr-4">
+      </div>
+      <ul class="flex justify-center space-x-4">
+        <li><a href="/home" class="hover:underline cursor-pointer">Home</a></li>
+        <li><a href="/about" class="hover:underline cursor-pointer">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
-  <router-outlet></router-outlet>
-</main>
+  <main class="p-4 flex-1">
+    <router-outlet></router-outlet>
+  </main>
 
-<footer>
-  <p></p>
-</footer>
+  <footer class="bg-gray-800 text-white text-center p-4 text-sm flex flex-col items-center">
+    <p>&copy; 2024 Developed by <a href="https://github.com/Ctere1" target="_blank" class="underline">Cemil Tan</a></p>
+  </footer>
+</div>

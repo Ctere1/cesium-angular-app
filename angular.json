@@ -54,8 +54,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "2mb",
+                  "maximumError": "10MB"
                 }
               ],
               "outputHashing": "all"
@@ -64,8 +64,8 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
-              "ssr": false, 
-              "prerender": false 
+              "ssr": false,
+              "prerender": false
             }
           },
           "defaultConfiguration": "production"

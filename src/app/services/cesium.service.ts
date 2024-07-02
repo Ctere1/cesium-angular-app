@@ -31,7 +31,7 @@ export class CesiumService {
   initialize(containerId: string): void {
     this.viewer = new Viewer(containerId, {
       targetFrameRate: 60,
-      scene3DOnly: true,
+      scene3DOnly: false,
     });
 
     this.viewer.scene.debugShowFramesPerSecond = true;
